@@ -5,11 +5,21 @@ use App\Foo;
 
 class FooTest extends TestCase {
 
-    public function testBar() {
-        $expec = 'bar';
+    //Test function bar() OK
+    public function testBar_Ok() {
+        $expected = 'bar';
         $foo = new Foo();
-        $result = $foo->bar();
+        $actual = $foo->bar();
 
-        $this->assertEquals($expec, $result);
+        $this->assertEquals($expected, $actual);
+    }
+
+    //Test function bar() NG
+    public function testBar_Ng() {
+        $expected = 'foo';
+        $foo = new Foo();
+        $actual = $foo->bar();
+
+        $this->assertEquals($expected, $actual);
     }
 }

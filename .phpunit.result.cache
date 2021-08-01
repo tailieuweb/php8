@@ -1,1 +1,1 @@
-{"version":1,"defects":{"Tests\\FooTest::testBar":4},"times":{"Tests\\FooTest::testBar":0.001}}
+{"version":1,"defects":{"Tests\\FooTest::testBar":4,"Tests\\FooTest::testBar_Ng":3},"times":{"Tests\\FooTest::testBar":0.001,"Tests\\FooTest::testBar_Ok":0.001,"Tests\\FooTest::testBar_Ng":0.001}}
