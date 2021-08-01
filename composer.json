@@ -15,12 +15,11 @@
     "autoload": {
         "psr-4": {
             "App\\":"app/",
-            "Tests\\":"test/"
+            "Models\\":"models/"            
         }
     },
     "autoload-dev": {
-        "psr-4": {
-            "App\\":"app/",
+        "psr-4": {            
             "Tests\\":"test/"
         }
     }
